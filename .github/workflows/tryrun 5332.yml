@@ -78,4 +78,4 @@ jobs:
         user: ${{secrets.unicom_user5332}}
         password: ${{secrets.unicom_password}}
         appid: ${{secrets.unicom_appid}}
-      run: node index.js unicom --user=${user} --password=${password} --appid=${appid} --tryrun
+      run: node index.js unicom --user=${user} --password=${password} --appid=${appid} 
